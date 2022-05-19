@@ -33,8 +33,7 @@ extensive standard library are available in source
 or binary form without charge for all major 
 platforms, and can be freely distributed.
 
-# History of Python: 
-
+# History of Python:
 Python is a widely used general-purpose, high-level 
 programming language. It was initially designed by 
 Guido van Rossum in 1991 and developed by Python 
@@ -92,11 +91,65 @@ section char(1)
 CREATE TABLE STUDENT (
  adm_no INT(6) PRIMARY KEY,
  Name VARCHAR(40),
-
-class int(2),
-
+ class int(2),
  section char(1));
  ```
  
- 
- 
+### Table Name: RESULT
+#### Attributes:
+``` sql 
+Adm_no int(6) 
+exam_name varchar(30)
+sub1 int(3)
+sub2 int(3)
+sub3 int(3)
+sub4 int(3)
+sub5 int(3)
+total int(3)
+percentage int(5)
+attendance int(5)
+grade char(1)
+remarks varchar(50) 
+```
+
+### Code:
+``` sql
+CREATE TABLE RESULT (
+Adm_no int(6) PRIMARY KEY,
+exam_name varchar(30),
+sub1 int(3),
+sub2 int(3),
+sub3 int(3),
+sub4 int(3),
+sub5 int(3),
+total int(3),
+percentage int(5),
+attendance int(5),
+grade char(1),
+remarks varchar(50));
+```
+
+## MOTIVE
+❖ To maintain the student profile, marks and 
+attendance details of the students of class-XI 
+and XII.
+
+❖ To generate report card displaying the marks 
+of a student in different subjects in a particular 
+exam and represent the same by graphical 
+analysis.
+
+❖ Globalized usage.
+
+## LIMITATIONS
+❖ The Project has no provision to update 
+marks after the report card is generated.
+
+❖ The project does not incorporate the 
+provision of producing the result of the 
+entire class for a particular examination.
+
+❖ The project is limited to the examination 
+system of class-XI and XII and does not 
+provide the yearly summary sheet report 
+generation facility.
