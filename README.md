@@ -87,6 +87,16 @@ class int(2)
 section char(1) 
 
 ```
-Code:
+### Code:
+```sql
 CREATE TABLE STUDENT (
  adm_no INT(6) PRIMARY KEY,
+ Name VARCHAR(40),
+
+class int(2),
+
+ section char(1));
+ ```
+ 
+ 
+ 
