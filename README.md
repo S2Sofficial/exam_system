@@ -76,7 +76,7 @@ documentation.
 ### Code:
 
 ```sql
-{ 
+
 Create Database Exam;
 Use Exam;
 Table Name: STUDENT
@@ -85,7 +85,8 @@ adm_no int(6) Primary Key
 name varchar(40)
 class int(2)
 section char(1) 
-}```
+
+```
 Code:
 CREATE TABLE STUDENT (
  adm_no INT(6) PRIMARY KEY,
